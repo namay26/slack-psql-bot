@@ -64,7 +64,7 @@ In any Slack channel where the bot is invited:
 
 ## Prorject Structure
 
-app.py - Entry point for the Slack bot. Handles slash commands and formats the responses that get sent back to Slack.
-nl_to_sql.py - Takes a user’s natural language query and converts it into SQL using a LangChain prompt.
-db.py - DB connection to the Postgres SQL client
-db_setup.sql - SQL script used to create the tables and populate them with some initial sample data.
+app.py - Entry point for the Slack bot. Handles slash commands and formats the responses that get sent back to Slack.  
+nl_to_sql.py - Takes a user’s natural language query and converts it into SQL using a LangChain prompt.  
+db.py - DB connection to the Postgres SQL client.    
+db_setup.sql - SQL script used to create the tables and populate them with some initial sample data.  
